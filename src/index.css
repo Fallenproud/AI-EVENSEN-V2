@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px;
+  letter-spacing: 0.2em;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2563EB, #00C2A8);
+  color: white;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+}
+
+.features div {
+  max-width: 200px;
+}
+
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+}
